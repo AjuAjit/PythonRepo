@@ -4,7 +4,7 @@ from PyDictionary import PyDictionary
 r = RandomWords()
 dictionary = PyDictionary()
 word_of_the_game = r.get_random_word(hasDictionaryDef="true", minLength=6, maxLength=10)  # Return a single random word
-print(word_of_the_game)
+#print(word_of_the_game)
 print(dictionary.meaning(word_of_the_game))     # gets the meaning of the input word to assist user
 guess_counter = 0  # keeps a count of the number of guesses so far
 
